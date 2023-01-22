@@ -6,12 +6,28 @@
     box-sizing: border-box;
 }
 
+
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1E1E1E;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #10B981; 
+    border-radius: 5px;   /* color of the scroll thumb */
+  }
+
+
 body{
     background: #1E1E1E;
     color: white;
     height: 100vh;
     
 }
+
 
 header{
     width: 100%;
@@ -46,7 +62,7 @@ button div{
     width: fit-content;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 
 }
 
