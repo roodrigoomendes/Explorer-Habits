@@ -50,6 +50,13 @@ button{
     font-size: 16px;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: all 0.3s;
 }
 
 button div{
