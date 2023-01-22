@@ -46,7 +46,6 @@ button div{
     width: fit-content;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 100vw;
 
 }
@@ -54,8 +53,11 @@ button div{
 .habits{
     display: flex;
     gap: 24px;
-    margin-left: 85px;
+    padding-left: 85px;
+    position: fixed ;
+    background: #1E1E1E ;
     
+
 }
 
 .habit{
@@ -72,6 +74,7 @@ button div{
     display: flex;
     gap: 48px;
     flex-direction: column;
+    padding-top: 80px;
 }
 
 .day{
