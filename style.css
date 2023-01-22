@@ -10,21 +10,23 @@ body{
     background: #1E1E1E;
     color: white;
     height: 100vh;
+    
 }
 
 header{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: fixed;
     padding: 48px;
     background: #1E1E1E;
+    
 }
 
 
 button{
-    padding:16px 24px ;
-    border: 1px solid #8B5CF6;
+    padding:1rem 1.5rem ;
+    border: 1px solid #10B981;
     border-radius: 8px;
     background: transparent;
     color: white;
@@ -42,34 +44,40 @@ button div{
     display: flex;
     padding:  182px 48px 48px ;
     width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
 }
 
 .habits{
     display: flex;
-    flex-direction: column;
     gap: 24px;
-    margin-top: 58px;
+    margin-left: 85px;
+    
 }
 
 .habit{
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     font-size: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 .days{
     display: flex;
     gap: 48px;
+    flex-direction: column;
 }
 
 .day{
     display: flex;
-    flex-direction: column;
     gap: 24px;
+    align-items: center;
 }
 
 .day div{
@@ -95,7 +103,7 @@ input {
 }
 
 input:checked{
-    border: 2px solid #A78BFA;
-    background: #8B5CF6;
+    border: 2px solid #34D399;
+    background: #10B981;
 }
 

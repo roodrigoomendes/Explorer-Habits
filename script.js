@@ -8,6 +8,7 @@ form.addEventListener('change', save)
 
 function add(){
 
+
     const today = new Date()
     .toLocaleDateString('pt-br')
     .slice(0,-5)
@@ -31,6 +32,7 @@ function save(){
 
     
 const data = JSON.parse(localStorage.getItem('DATAhabits')) || {}
+
 
 nlwSetup.setData(data)
 nlwSetup.load()
