@@ -13,8 +13,12 @@ body{
 }
 
 header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    padding: 48px;
+    background: #1E1E1E;
 }
 
 
@@ -30,13 +34,14 @@ button{
     align-items: center;
 }
 
-button img{
-    margin-right: 12px;
+button div{
+    margin-left: 12px;
 }
 
 #form-habits{
     display: flex;
-    margin: 48px 0px;
+    padding:  182px 48px 48px ;
+    width: fit-content;
 }
 
 .habits{
@@ -93,3 +98,4 @@ input:checked{
     border: 2px solid #A78BFA;
     background: #8B5CF6;
 }
+
